@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peshi Hair Vault</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/logo-icon.png" type="image/png" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #000;
+        color: #fff;
+      }
+
+      header img {
+        height: 60px;
+      }
+
+      nav a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+
+      .hero {
+        background: url("images/img4.jpg") no-repeat center center/cover;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+        max-width: 700px;
+      }
+
+      .cta-button {
+        background-color: #f50a7b;
+        padding: 15px 30px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      section {
+        padding: 60px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      .gallery,
+      .video-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .gallery img,
+      .video-gallery video {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+      }
+
+      .contact {
+        background-color: #f7f7f7;
+        padding: 40px;
+        border-radius: 10px;
+      }
+
+      footer {
+        background-color: #000;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .socials a {
+        margin: 0 10px;
+        color: #f50a7b;
+        font-size: 1.2rem;
+      }
+
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo1.jpg" alt="Peshi Hair Vault"  width="180"/>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Enhancing Your Natural Beauty, One Style at a Time</h1>
+        <button class="cta-button">Book an Appointment</button>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Our Story</h2>
+      <p>
+        Peshi Hair Vault is dedicated to delivering top-tier hair styling
+        and beauty services to help you express your authentic self. Our founder
+        brings over 10 years of experience transforming looks with precision and
+        passion.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Haircuts & Styling</li>
+        <li>Coloring & Highlights</li>
+        <li>Braids & Protective Styles</li>
+        <li>Wig Installation</li>
+        <li>Scalp Treatments</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="images/IMG-2.jpg" alt="Style 1" />
+        <img src="images/IMG-3.jpg" alt="Style 2" />
+        <img src="images/IMG1.jpg" alt="Style 3" />
+      </div>
+    </section>
+
+    <section id="videos">
+      <h2>Video Gallery</h2>
+      <div class="video-gallery">
+        <video controls src="videos/VID1.mp4"></video>
+        <video controls src="videos/VID-2.mp4"></video>
+        <video controls src="videos/VID-3.mp4"></video>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact">
+        <p>
+          Email:
+          <a href="mailto:info@stylistahair.com">peshihair2vault@gmail.com</a>
+        </p>
+        <p>Phone: +1 4378184023</p>
+        <p>Address: 1517, CollegeView 200  Old Carriage Dr Kitchener ON OC7</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Stylista Hair Studio. All rights reserved.</p>
+      <div class="socials">
+        <a href=" https://www.instagram.com/pesh_hairvault?igsh=MWtnY2pwc2N6cXZubA%3D%3D&utm_source=qr"
+          ><img src="icon/insta.png" alt="Instagram" width="24"
+        /></a>
+        <a href=" https://www.facebook.com/share/1XbFHGBsgt/?mibextid=wwXIfr"
+          ><img src="icon/facebook.png" alt="Facebook" width="24"
+        /></a>
+        <a href="https://www.youtube.com/@PeshHairVault-t3h"
+          ><img src="icon/youtube.png" alt="YouTube" width="24"
+        /></a>
+        <a href=" http://linkedin.com/in/patience-nwokohuo-535985a0"
+          ><img src="icon/linkedin.png" alt="Linkedin" width="24"
+        /></a>
+        <a href="https://www.pinterest.com/peshhairv/?actingBusinessId=1031113414594023783"
+          ><img src="icon/pinterest.png" alt="Pinterest" width="24"
+        /></a>
+        <a href="https://x.com/pesh_hair?s=21"
+          ><img src="icon/x.jpg" alt="Pinterest" width="24"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
