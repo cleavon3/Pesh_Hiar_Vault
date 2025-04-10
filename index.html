@@ -33,19 +33,26 @@
       }
 
       .hero {
-        background: url("images/channelArt1.png") no-repeat center center/cover;
-        height: 90vh;
+        background: url("images/channelArt2.png") no-repeat center center/cover;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
         text-align: center;
+        padding: 50px;
       }
 
-      .hero h1 {
+      .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /*.hero h1 {
         font-size: 3rem;
         max-width: 700px;
-      }
+      }-*/
 
       .cta-button {
         background-color: #f50a7b;
@@ -55,7 +62,7 @@
         border-radius: 5px;
         font-size: 1rem;
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 100px;
       }
 
       section {
@@ -93,7 +100,6 @@
         line-height: 1.5;
         color: #555;
       }
-
 
       .gallery,
       .video-gallery {
@@ -138,7 +144,7 @@
 
   <body>
     <header>
-      <img src="images/logo1.jpg" alt="Peshi Hair Vault"  width="180"/>
+      <img src="images/logo1.jpg" alt="Peshi Hair Vault" width="180" />
       <nav>
         <a href="#about">About</a>
         <a href="#services">Services</a>
@@ -149,12 +155,8 @@
     </header>
 
     <section class="hero">
-      <div>
-        <h1></h1>
-        <p>
-          we weave your hair to your desired style with with care and attention.
-          Wondering where to make to make your next hairstyle?
-        </p>
+      <div class="hero-content">
+        
         <a href="contact.html" class="cta-button">Book an Appointment</a>
       </div>
     </section>
@@ -162,42 +164,51 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        I am patience, CEO of Peshi Hair Vault. A hairstylist with two years experience in the industry.
-        I pride myself in making beautiful braids and weaves leaving a lasting impression on my clients.
-        The time i spend outside the salon includes
-        my activities of shopping hair products and extensions and surfing new hair trends online .
-        I am open to connecting with the new clients to provide assistance to all of your hair needs.
-        Peshi Hair Vault is dedicated to delivering top-tier hair styling
-        and beauty services to help you express your authentic self. i
-        bring over 10 years of experience transforming looks with precision and
-        passion.
+        I am patience, CEO of Peshi Hair Vault. A hairstylist with two years
+        experience in the industry. I pride myself in making beautiful braids
+        and weaves leaving a lasting impression on my clients. The time i spend
+        outside the salon includes my activities of shopping hair products and
+        extensions and surfing new hair trends online . I am open to connecting
+        with the new clients to provide assistance to all of your hair needs.
+        Peshi Hair Vault is dedicated to delivering top-tier hair styling and
+        beauty services to help you express your authentic self. i bring over 10
+        years of experience transforming looks with precision and passion.
       </p>
     </section>
-
-
 
     <section id="services">
       <h2>What We Offer</h2>
       <div class="services-container">
         <div class="service-card">
           <h3>Coloring & Highlights</h3>
-          <p>Transform your look with custom hair coloring and highlights tailored to your skin tone and style.</p>
+          <p>
+            Transform your look with custom hair coloring and highlights
+            tailored to your skin tone and style.
+          </p>
         </div>
         <div class="service-card">
           <h3>Braids & Protective Styles</h3>
-          <p>Protective yet stunning braid styles that support healthy hair growth while keeping you stylish.</p>
+          <p>
+            Protective yet stunning braid styles that support healthy hair
+            growth while keeping you stylish.
+          </p>
         </div>
         <div class="service-card">
           <h3>Wig Installation</h3>
-          <p>Flawless, secure wig installs that look natural and feel comfortable all day long.</p>
+          <p>
+            Flawless, secure wig installs that look natural and feel comfortable
+            all day long.
+          </p>
         </div>
         <div class="service-card">
           <h3>Scalp Treatments</h3>
-          <p>Relaxing and rejuvenating scalp care to improve circulation and promote healthy hair growth.</p>
+          <p>
+            Relaxing and rejuvenating scalp care to improve circulation and
+            promote healthy hair growth.
+          </p>
         </div>
       </div>
     </section>
-
 
     <section id="gallery">
       <h2>Photo Gallery</h2>
@@ -225,14 +236,15 @@
           <a href="mailto:info@stylistahair.com">peshihair2vault@gmail.com</a>
         </p>
         <p>Phone: +1 4378184023</p>
-        <p>Address: 1517, CollegeView 200  Old Carriage Dr Kitchener ON OC7</p>
+        <p>Address: 1517, CollegeView 200 Old Carriage Dr Kitchener ON OC7</p>
       </div>
     </section>
 
     <footer>
-      <p>&copy; 2025 Stylista Hair Studio. All rights reserved.</p>
+      <p>&copy; 2025 Pesh Hair Vault. All rights reserved.</p>
       <div class="socials">
-        <a href=" https://www.instagram.com/pesh_hairvault?igsh=MWtnY2pwc2N6cXZubA%3D%3D&utm_source=qr"
+        <a
+          href=" https://www.instagram.com/pesh_hairvault?igsh=MWtnY2pwc2N6cXZubA%3D%3D&utm_source=qr"
           ><img src="icon/insta.png" alt="Instagram" width="24"
         /></a>
         <a href=" https://www.facebook.com/share/1XbFHGBsgt/?mibextid=wwXIfr"
@@ -244,7 +256,8 @@
         <a href=" http://linkedin.com/in/patience-nwokohuo-535985a0"
           ><img src="icon/linkedin.png" alt="Linkedin" width="24"
         /></a>
-        <a href="https://www.pinterest.com/peshhairv/?actingBusinessId=1031113414594023783"
+        <a
+          href="https://www.pinterest.com/peshhairv/?actingBusinessId=1031113414594023783"
           ><img src="icon/pinterest.png" alt="Pinterest" width="24"
         /></a>
         <a href="https://x.com/pesh_hair?s=21"
