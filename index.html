@@ -33,7 +33,7 @@
       }
 
       .hero {
-        background: url("images/img4.jpg") no-repeat center center/cover;
+        background: url("images/channelArt1.png") no-repeat center center/cover;
         height: 90vh;
         display: flex;
         align-items: center;
@@ -63,6 +63,37 @@
         max-width: 1000px;
         margin: auto;
       }
+
+      .services-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px 0;
+      }
+
+      .service-card {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .service-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .service-card h3 {
+        margin-bottom: 10px;
+        color: #e61f93;
+      }
+
+      .service-card p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #555;
+      }
+
 
       .gallery,
       .video-gallery {
@@ -119,8 +150,12 @@
 
     <section class="hero">
       <div>
-        <h1>Enhancing Your Natural Beauty, One Style at a Time</h1>
-        <button class="cta-button">Book an Appointment</button>
+        <h1></h1>
+        <p>
+          we weave your hair to your desired style with with care and attention.
+          Wondering where to make to make your next hairstyle?
+        </p>
+        <a href="contact.html" class="cta-button">Book an Appointment</a>
       </div>
     </section>
 
@@ -139,16 +174,30 @@
       </p>
     </section>
 
+
+
     <section id="services">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Haircuts & Styling</li>
-        <li>Coloring & Highlights</li>
-        <li>Braids & Protective Styles</li>
-        <li>Wig Installation</li>
-        <li>Scalp Treatments</li>
-      </ul>
+      <h2>What We Offer</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <h3>Coloring & Highlights</h3>
+          <p>Transform your look with custom hair coloring and highlights tailored to your skin tone and style.</p>
+        </div>
+        <div class="service-card">
+          <h3>Braids & Protective Styles</h3>
+          <p>Protective yet stunning braid styles that support healthy hair growth while keeping you stylish.</p>
+        </div>
+        <div class="service-card">
+          <h3>Wig Installation</h3>
+          <p>Flawless, secure wig installs that look natural and feel comfortable all day long.</p>
+        </div>
+        <div class="service-card">
+          <h3>Scalp Treatments</h3>
+          <p>Relaxing and rejuvenating scalp care to improve circulation and promote healthy hair growth.</p>
+        </div>
+      </div>
     </section>
+
 
     <section id="gallery">
       <h2>Photo Gallery</h2>
