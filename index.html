@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Peshi Hair Vault</title>
+    <title>Pesh Hair Vault</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="images/logo-icon.png" type="image/png" />
     <style>
@@ -70,6 +70,43 @@
         max-width: 1000px;
         margin: auto;
       }
+
+      .about-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px;
+        gap: 40px;
+        flex-wrap: wrap; /* makes it responsive */
+      }
+
+      .about-text {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .about-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+
+      .about-text p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      .about-image {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .about-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+
 
       .services-container {
         display: grid;
@@ -161,20 +198,26 @@
       </div>
     </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am patience, CEO of Peshi Hair Vault. A hairstylist with two years
-        experience in the industry. I pride myself in making beautiful braids
-        and weaves leaving a lasting impression on my clients. The time i spend
-        outside the salon includes my activities of shopping hair products and
-        extensions and surfing new hair trends online . I am open to connecting
-        with the new clients to provide assistance to all of your hair needs.
-        Peshi Hair Vault is dedicated to delivering top-tier hair styling and
-        beauty services to help you express your authentic self. i bring over 10
-        years of experience transforming looks with precision and passion.
-      </p>
+    <section id="about" class="about-section">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am patience, CEO of Peshi Hair Vault. A hairstylist with two years
+          experience in the industry. I pride myself in making beautiful braids
+          and weaves leaving a lasting impression on my clients. The time i spend
+          outside the salon includes my activities of shopping hair products and
+          extensions and surfing new hair trends online . I am open to connecting
+          with the new clients to provide assistance to all of your hair needs.
+          Peshi Hair Vault is dedicated to delivering top-tier hair styling and
+          beauty services to help you express your authentic self. i bring over 10
+          years of experience transforming looks with precision and passion.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="images/IMG6.jpg" alt="Pesh Hair Vault" />
+      </div>
     </section>
+
 
     <section id="services">
       <h2>What We Offer</h2>
